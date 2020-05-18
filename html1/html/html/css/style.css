@@ -1,0 +1,150 @@
+body{
+    background: url(../img/4.png);
+    background-size: 100%
+}
+
+.title{
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    background-color: rgb(94, 94, 252);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    font-size: 270%;
+    text-decoration: underline;
+    font-family: monospace;
+    margin-left: 10px;
+    margin-top: 280px;
+    
+    background-color: orange;
+    padding-left: 30px;
+}
+
+.Tablee {
+    font-size: 180%;
+    font-family: monospace;
+    background-color: rgb(94, 94, 252) ;
+    color: orange;
+    margin-left: 1100px;
+    margin-top: -10px;
+}
+
+.Watch {
+    margin-top: 10px;
+    margin-left: 1095px;
+    color: black;
+    text-decoration: underline; 
+}
+
+.video {
+    float: left; 
+    margin: 0 0 px px; 
+    margin-left: 20px;
+}
+
+.Premier {
+   color: black;
+   text-decoration: underline; 
+   margin-top: 10px;
+   margin-left: 25px;
+   font-size: 150%;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%; 
+    color: orange;
+    margin-left: 18px;
+}
+@media(max-width:700px){
+    .text {
+        font-size: 270%;
+        text-decoration: underline;
+        font-family: monospace;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: orange;
+        padding-left: 30px;
+    }
+    .Premier {
+        color: black;
+        background-color: orange;
+        text-decoration: underline; 
+        margin-top: 0px;
+        margin-left: 10px;
+        font-size: 150%;
+     }
+     .video {
+        margin-top: 0px;
+        margin-left: 30px;
+        width: 100%;
+    }
+    .Watch {
+        margin-top: 210px;
+        margin-left: 0px;
+        color: black;
+        text-decoration: underline; 
+    }
+    .Tablee {
+        font-size: 200%;
+        font-family: monospace;
+        background-color: rgb(94, 94, 252) ;
+        color: orange;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    body{
+        background: url(../img/6.webp);
+       
+    }
+}
+@media(max-width:400px){
+    .text {
+        font-size: 270%;
+        text-decoration: underline;
+        font-family: monospace;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color:red;
+        padding-left: 30px;
+    }
+    .Premier {
+        color: black;
+        background-color: red;
+        text-decoration: underline; 
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 150%;
+     }
+     .video {
+        margin-top: 0px;
+        margin-left: 0px;
+        
+    }
+    .Watch {
+        margin-top: 210px;
+        margin-left: 0px;
+        color: black;
+        text-decoration: underline; 
+    }
+    .Tablee {
+        font-size: 200%;
+        font-family: monospace;
+        background-color: rgb(94, 94, 252) ;
+        color:red;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    body{
+        background: url(../img/3.png);
+       
+    }
+    .video1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+}
